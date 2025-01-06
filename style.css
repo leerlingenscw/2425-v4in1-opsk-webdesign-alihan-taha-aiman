@@ -1,0 +1,39 @@
+.nav {
+    position: relative;
+    display:flex;
+    -webkit-box-pack:center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 100%;
+    color: rgb(102, 102, 102);
+    }
+    
+    li {
+        float: left;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #555;
+    }
+    
+    li a {
+        display: block;
+        color: white;
+        padding: 14px;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    .active {
+        Background-color: #FF6347;
+    }
+    
+    li a:hover:not(.active) {
+        background-color: #444;
+    }
+    
