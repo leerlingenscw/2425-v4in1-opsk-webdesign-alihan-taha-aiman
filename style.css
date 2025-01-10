@@ -6,7 +6,7 @@
     -webkit-box-align: center;
     align-items: center;
     height: 100%;
-    color: rgb(102, 102, 102);
+    color: rgb(0, 0, 0);
     }
     
     li {
@@ -18,7 +18,7 @@
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color: #555;
+        background-color: #000;
     }
     
     li a {
@@ -34,6 +34,16 @@
     }
     
     li a:hover:not(.active) {
-        background-color: #444;
+        background-color: #000;
     }
     
+    h2 {
+        position: relative;
+        display:flex;
+        -webkit-box-pack:center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        height: 100%;
+        color: rgb(0, 0, 0);
+    }
