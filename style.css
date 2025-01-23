@@ -65,7 +65,8 @@ grid-template-areas:
         -webkit-box-align: center;
         align-items: center;
         height: 100%;
-        color: rgb(255, 255, 255);
+        color: #FFFFFF;
+        text-emphasis-color: #FFFFFF;
     }
     h2 {
         position: relative;
@@ -98,4 +99,8 @@ grid-template-areas:
     p {
         padding: 10px;
         text-align: relative;
+    }
+
+    main h3 {
+        padding: 10px;
     }

@@ -105,3 +105,11 @@ grid-template-areas:
         text-align: relative;
         color: #000000;
     }
+
+    main img {
+        width: 50%;
+        height: 50%;
+        -webkit-box-align: end;
+        float: right;
+        
+        }
