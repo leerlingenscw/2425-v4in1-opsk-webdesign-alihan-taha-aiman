@@ -112,8 +112,25 @@ grid-template-areas:
         padding: 80px;
         text-align: relative;
         border-top: 15px solid greenyellow;
-        border-bottom: 15px solid greenyellow;
         font-size: 18pt;
 
 
+    }
+
+    .nummer1 {
+        padding: 40px;
+        text-align: relative;
+        border-top: 15px solid greenyellow;
+        border-bottom: 0px;
+        font-size: 18pt;
+
+    }
+
+    .nummer2 {
+        padding: 40px;
+        text-align: relative;
+        border-bottom: 1px solid greenyellow;
+        border-top: 0px;
+        border-bottom: 0px solid greenyellow;
+        font-size: 18pt;
     }
