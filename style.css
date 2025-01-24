@@ -155,3 +155,11 @@ grid-template-areas:
         background-color: blue;
     }
 
+    main h4 {  color: black;
+        font-size: 19pt;
+    padding: 35px; }
+
+    main h5  {  color: black;
+        font-size: 23pt;
+    padding: 30px; 
+text-align: center; } 
