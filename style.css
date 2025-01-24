@@ -52,9 +52,13 @@ grid-template-areas:
     .active {
         background-color:#4169E1;
     }
+
+    li a {
+        transition: 0.5s;
+    }
     
     li a:hover:not(.active) {
-        background-color: #000;
+        background-color: gray;
     }
     
     h1 {
@@ -142,3 +146,12 @@ grid-template-areas:
         size: 2px;
         line-height: 2px
     }
+
+    ul > li > a {
+        transition: 0.5s;
+    }
+
+    ul li a:hover {
+        background-color: blue;
+    }
+
