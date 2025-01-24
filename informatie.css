@@ -114,11 +114,11 @@ grid-template-areas:
 
     sidebar img {
         width: 50%;
-        height: 50%;
+        height: 10%;
         -webkit-box-align: end;
-        float: right;
+        float   right: : ;
         grid-area: sidebar;
-        padding: 10px;
+        padding: 1px;
         margin: 10px;
         
         }
