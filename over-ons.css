@@ -105,3 +105,10 @@ grid-template-areas:
         padding: 10px;
         color: #000000;
     }
+
+    main {
+        color: black;
+        background-color: lightblue;
+    }
+
+
