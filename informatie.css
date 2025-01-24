@@ -112,10 +112,28 @@ grid-template-areas:
         color: #000000;
     }
 
-    main img {
+    sidebar img {
         width: 50%;
         height: 50%;
         -webkit-box-align: end;
         float: right;
+        grid-area: sidebar;
+        padding: 10px;
+        margin: 10px;
         
+        }
+
+        main {
+            grid-area: main;
+
+        }
+
+        sidebar {
+            height: 100%;
+            width: 35%;
+        }
+
+        main {
+            height:100%;
+            width: 65%;
         }
