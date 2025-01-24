@@ -117,5 +117,15 @@ grid-template-areas:
         height: 50%;
         -webkit-box-align: end;
         float: right;
+        grid-area: sidebar;
         
+        }
+
+        main {
+            grid-area: main;
+
+        }
+
+        sidebar {
+            
         }
